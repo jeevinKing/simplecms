@@ -15,11 +15,11 @@ return [
     // 服务器地址
     'hostname'        => '127.0.0.1',
     // 数据库名
-    'database'        => '',
+    'database'        => 'simplecms',
     // 用户名
     'username'        => 'root',
     // 密码
-    'password'        => '',
+    'password'        => '123456',
     // 端口
     'hostport'        => '',
     // 连接dsn
@@ -52,12 +52,4 @@ return [
     'datetime_format' => 'Y-m-d H:i:s',
     // 是否需要进行SQL性能分析
     'sql_explain'     => false,
-    // Builder类
-    'builder'         => '',
-    // Query类
-    'query'           => '\\think\\db\\Query',
-    // 是否需要断线重连
-    'break_reconnect' => false,
-    // 断线标识字符串
-    'break_match_str' => [],
 ];
